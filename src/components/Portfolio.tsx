@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import contornoImg from '../assets/contorno.png';
 import labialImg from '../assets/labial.png';
+import porcelainImg from '../assets/porcelain.png';
 
 const portfolioItems = [
   {
@@ -15,7 +16,7 @@ const portfolioItems = [
     id: 2,
     category: 'Odontologia',
     title: 'Facetas em Porcelana',
-    image: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=1974&auto=format&fit=crop', // Smile close up
+    image: porcelainImg, // Updated from Unsplash to custom image
     span: 'col-span-1 row-span-1'
   },
   {

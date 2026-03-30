@@ -15,12 +15,18 @@
   --font-sans: 'Inter', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 @layer base {
   body {
     background-color: var(--color-noir-950);
     color: #e4e4e7;
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
   
   h1, h2, h3, h4, h5, h6 {

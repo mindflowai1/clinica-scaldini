@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import bioImg from '../assets/bio.png';
 import rehabImg from '../assets/rehabilitacao.png';
+import porcelainImg from '../assets/porcelain.png';
 
 const services = [
   {
@@ -13,7 +14,7 @@ const services = [
     id: '02',
     title: 'Facetas em Porcelana',
     description: 'A joalheria da odontologia. Sorrisos perfeitamente brancos e alinhados, devolvendo brilho e simetria com materiais da mais alta durabilidade.',
-    image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2670&auto=format&fit=crop', // Lips/chin aesthetic
+    image: porcelainImg, // Updated from Unsplash to custom image
   },
   {
     id: '03',

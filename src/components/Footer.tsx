@@ -42,9 +42,9 @@ export function Footer() {
           <h4 className="uppercase tracking-[0.2em] text-[10px] text-[var(--color-gold-500)] font-sans">Navegação</h4>
           <ul className="space-y-3 font-sans font-light text-sm text-zinc-400">
             <li><a href="#a_clinica" className="hover:text-white transition-colors">A Clínica</a></li>
-            <li><a href="#faciais" className="hover:text-white transition-colors">Tratamentos Faciais</a></li>
-            <li><a href="#odontologia" className="hover:text-white transition-colors">Odontologia Especializada</a></li>
-            <li><a href="#testemunhos" className="hover:text-white transition-colors">Resultados e Relatos</a></li>
+            <li><a href="#faciais" className="hover:text-white transition-colors">Procedimentos</a></li>
+            <li><a href="#portfolio" className="hover:text-white transition-colors">Resultados</a></li>
+            <li><a href="#testemunhos" className="hover:text-white transition-colors">Depoimentos</a></li>
           </ul>
         </div>
       </div>
