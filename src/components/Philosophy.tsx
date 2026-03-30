@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import doctorsImg from '../assets/doctors.png';
+import doctorsImg from '../assets/doctors_updated.png';
 
 const pillars = [
   { id: '01', title: 'Exclusividade', text: 'Atendimento sob medida em um ambiente planejado para o seu conforto absoluto.' },

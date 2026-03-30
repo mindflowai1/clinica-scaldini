@@ -32,7 +32,7 @@ export function Footer() {
             </li>
             <li className="flex items-start gap-3">
               <MapPin size={16} strokeWidth={1.5} className="mt-1 shrink-0" />
-              <span className="leading-relaxed">Belo Horizonte, MG</span>
+              <span className="leading-relaxed">Lagoa Santa, MG</span>
             </li>
           </ul>
         </div>

@@ -60,7 +60,7 @@ export function CtaSection() {
           transition={{ duration: 1, delay: 0.6 }}
           className="text-[10px] font-sans tracking-widest uppercase text-zinc-500 mt-8 block"
         >
-          Atendimento personalizado em Belo Horizonte
+          Atendimento personalizado em Lagoa Santa
         </motion.span>
       </div>
     </section>
