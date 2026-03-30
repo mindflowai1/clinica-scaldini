@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Agent config (large CSVs/scripts)
+.agent/
+
+# Loose assets in root (originals already copied to src/assets/)
+*.mp4
+*.png
+*.jpg
+*.jpeg
+!src/**/*.png
+!src/**/*.jpg
+!src/**/*.jpeg
+!src/**/*.mp4
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
